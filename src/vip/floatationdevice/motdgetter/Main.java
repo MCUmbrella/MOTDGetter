@@ -26,7 +26,7 @@ public class Main {
 				//System.out.println(b + ":" + ((char) b));
 				}
 				}
-				String[] data = str.toString().split("¡ì");
+				String[] data = str.toString().split("Â§");
 				String serverMotd = data[0];
 				int onlinePlayers = Integer.parseInt(data[1]);
 				int maxPlayers = Integer.parseInt(data[2]);
